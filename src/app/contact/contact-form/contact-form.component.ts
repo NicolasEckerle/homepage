@@ -14,16 +14,6 @@ export class ContactFormComponent implements OnInit {
   constructor() {
   }
 
-  send() {
-    const allInfo = `Mein Name ist ${this.name}. Meine E-mail lautet ${this.email}. Meine Naricht ist ${this.message}`;
-    alert(allInfo);
-  }
-
-  confirmation() {
-    const send_sucesfull = `${this.name} deine Naricht wurde erfolgreich versendet`;
-    alert(send_sucesfull);
-  }
-
   ngOnInit() {
   }
 

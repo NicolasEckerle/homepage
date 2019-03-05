@@ -6,7 +6,7 @@ export const CVS2: Curriculumvitaetext[] = [
   {
     year: '2016',
     school: 'IFW',
-    text: 'Miterstellung eines Templates zur Zeit-, Sitzungsüberwachung sowie der Protokollierung von Teamviewerverbindungen und der automatischen Zuteilung von Kunden- und Projektdaten'
+    text: 'Erstellung einer Applikation zur Überwachung und Protokollierung der Zeiten und der Sitzungen von Teamviewer-Konferenzen und der automatisierten Zuteilung von Kunden- und Projekt-Daten'
   },
   {year: '2013-2015', school: 'IDL Becker', text: 'Ausbildung zum Mediengestalter Digital und Print'},
   {year: '2011-2014', school: 'SWR Baden-Baden', text: 'Kabelhilfe'},
