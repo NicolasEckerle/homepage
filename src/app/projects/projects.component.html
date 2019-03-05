@@ -1,0 +1,63 @@
+<h1 class="headline"> Projekte</h1>
+<div class="full">
+
+
+  <div class="container">
+
+
+    <div class="row">
+      <div class="jumbotron colordisabelt col-12 col-md-6 col-xl-6">
+        <h1>p5.js</h1>
+        <p> {{snaketext.snaketext}}</p>
+      </div>
+      <div class="jumbotron col-12 col-md-6 col-xl-6">
+        <h1>Snake</h1>
+        <p> Lust auf eine Runde daddeln?</p>
+        <mat-icon routerLink='/snake' class="example-icon" svgIcon="playbotton"></mat-icon>
+      </div>
+    </div>
+
+    <div class="row justify-content-around">
+
+      <div class=" jumbotron col-12 col-md-6 col-xl-6">
+        <h1> Epoxy-Brennholz-Tisch</h1>
+        <p> {{text.tablepart1}}
+        </p>
+      </div>
+
+      <div class=" col-12 col-md-6 col-xl-6">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+      </div>
+
+
+    </div>
+    <div class="spacer"></div>
+    <div class="row">
+      <div class="jumbotron colordisabelt col-12 col-md-6 col-xl-6">
+        <h1> Fazit/Empfehlung</h1>
+        <p> {{text.tablepart2}}
+        </p>
+      </div>
+      <div class="jumbotron col-12 col-md-6 col-xl-6">
+        <h1>Harz-Rechner</h1>
+        <app-calc-epoxy></app-calc-epoxy>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+
+      <div class=" jumbotron col-12 col-md-6 col-xl-6">
+        <h1>All-in-One PC mit WaKü</h1>
+        <p> {{text.wakuepc}}
+        </p>
+      </div>
+
+      <div class=" col-12 col-md-6 col-xl-6">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages2"></ngx-gallery>
+      </div>
+
+
+    </div>
+
+  </div>
+  <div class="spacer"></div>
+</div>

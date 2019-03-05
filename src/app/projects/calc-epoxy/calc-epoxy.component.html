@@ -1,0 +1,22 @@
+<form class="calc">
+
+  <mat-form-field class="calc-full-width">
+    <input [(ngModel)]="height" matInput name="height" placeholder="Höhe in cm" type="number">
+  </mat-form-field>
+
+  <mat-form-field class="calc-full-width">
+    <input [(ngModel)]="width" matInput name="width" placeholder="Breite in cm" type="number">
+  </mat-form-field>
+
+  <mat-form-field class="calc-full-width">
+    <input [(ngModel)]="length" matInput name="length" placeholder="Länge in cm" type="number">
+  </mat-form-field>
+</form>
+
+<button mat-raised-button (click)='cal_epoxy()'>
+  berechnen
+</button>
+
+<h2>
+  {{result}}
+</h2>

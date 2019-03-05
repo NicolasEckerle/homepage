@@ -1,0 +1,17 @@
+<form class="contact-form">
+
+  <mat-form-field class="contact-form-full-width">
+    <input [(ngModel)]="name" class="input" matInput name="name" placeholder="Name" type="text">
+  </mat-form-field>
+
+  <mat-form-field class="contact-form-full-width">
+    <input [(ngModel)]="email" class="input" matInput name="email" placeholder="E-Mail" type="email">
+  </mat-form-field>
+
+  <mat-form-field class="contact-form-full-width">
+    <textarea [(ngModel)]="message" matInput name="message" placeholder="Wie kann ich helfen?"></textarea>
+  </mat-form-field>
+
+  <button (click)='send()' mat-raised-button>Senden</button>
+
+</form>

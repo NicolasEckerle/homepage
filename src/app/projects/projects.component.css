@@ -1,0 +1,32 @@
+.full {
+  min-height: 100%;
+  margin-top: 50px;
+}
+
+.headline {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
+  transform: none !important;
+}
+
+.jumbotron {
+  width: -20px;
+  text-align: center
+}
+
+.spacer {
+  height: 15px;
+}
+
+.colordisabelt {
+  background-color: white;
+}
+
+.example-icon {
+  width: 50px;
+  height: auto;
+}

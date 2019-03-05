@@ -1,0 +1,17 @@
+.headline {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+
+.container {
+  margin-top: 50px;
+}
+
+.zitat {
+  color: rgb(194, 194, 194);
+  font-size: 13pt;
+  font-weight: bold;
+  font-style: italic;
+}

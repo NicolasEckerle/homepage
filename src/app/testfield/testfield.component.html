@@ -1,0 +1,23 @@
+<div class="container" style="padding-top:50px;">
+  <div class="row">
+    <div class="col-12 col-md-6 ">
+      <div class="jumbotron" style="text-align:center">
+        Diese Seite dient nur zu Testzwecken, somit werden die Komentare nicht gespeichert. Also feel free to
+        test the Service.
+      </div>
+    </div>
+    <div class="col-12 col-md-6 ">
+      <form class="contact-form">
+        <mat-form-field class="contact-form-full-width">
+          <input #authorName matInput placeholder="Name">
+        </mat-form-field>
+
+        <mat-form-field class="contact-form-full-width">
+          <textarea #text matInput placeholder="Naricht"></textarea>
+        </mat-form-field>
+
+        <button (click)='postService.addPost(text.value,authorName.value)' mat-raised-button>Senden</button>
+      </form>
+    </div>
+  </div>
+</div>

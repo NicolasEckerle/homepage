@@ -1,0 +1,28 @@
+.headline {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.jumbotron {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.right {
+  float: right;
+}
+
+.bold {
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+<mat-toolbar color="primary">
+
+  <div fxHide.lt-md="true" fxShow="true">
+    <app-navbar></app-navbar>
+  </div>
+
+  <div fxHide.gt-sm="true" fxShow="true">
+    <button [matMenuTriggerFor]="menu" mat-button>Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink='/home'> Home</button>
+      <button mat-menu-item routerLink='/about'>About Me</button>
+      <button mat-menu-item routerLink='/projects'>Projekte</button>
+      <button mat-menu-item routerLink='/contact'>Kontakt</button>
+      <button mat-menu-item routerLink='/test'>Kommentar</button>
+      <button mat-menu-item routerLink='/Curriculum Vitae'>Curriculum Vitae</button>
+
+    </mat-menu>
+  </div>
+  <span class="example-spacer"></span>
+  <a href='https://www.instagram.com/'>
+    <mat-icon class="example-icon" svgIcon="instagram"></mat-icon>
+  </a>
+  <a href='https://www.youtube.com/'>
+    <mat-icon class="example-icon" svgIcon="youtube"></mat-icon>
+  </a>
+</mat-toolbar>
+
+
+
+  

@@ -1,0 +1,13 @@
+.example-icon {
+  margin: 0 14px 10px 14px;
+  cursor: pointer;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background-color: rgb(41, 41, 41);
+
+}
