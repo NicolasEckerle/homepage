@@ -24,6 +24,9 @@ export class AppComponent implements OnInit {
     iconRegistry.addSvgIcon(
       'playbotton',
       sanitizer.bypassSecurityTrustResourceUrl('assets/playbotton.svg'));
+    iconRegistry.addSvgIcon(
+      'xing_logo',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/xing_logo.svg'));
   }
 
   ngOnInit() {
