@@ -3,9 +3,20 @@ h1 {
   font-weight: bold;
 }
 
+.slider {
+  width: 100%;
+  height: 100vh;
+  background-size: cover !important;
+  background: no-repeat center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 64px;
+}
 
-
-.d-sm-block {
- bottom: 50%;
+.slider-text {
+  max-width: 80%;
+  color: #fff;
+  text-align: center;
 }
 

@@ -1,6 +1,5 @@
 .contentbox {
   min-height: 100vh;
-  margin-bottom: -64px; padding-bottom: 64px;
-
+  margin-bottom: -64px;
+  padding-bottom: 64px;
 }
-
